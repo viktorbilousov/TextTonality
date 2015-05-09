@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace TextTonality
 {
+
+    // todo: переписать enum (на список) и класс, что бы можно было добавлять любое количество классов
     public enum ClassTypeValue
     {
-        Unknown = -1, // не менять это занчение !!!!
+        Unknown = -1, 
         Negative = 0,
         Positive = 1
     };
