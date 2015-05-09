@@ -134,7 +134,9 @@ namespace TextTonality
         /// <param name="classType">Класс текста</param>
         public void AddWord(Text text, int leightOfCollation, ClassTypeValue classType)
         {
-
+            //todo : оптимизировать поиск. Возможно удалять слова, которые повторяются
+            // хотя можно и забить. так оно выглядит только круче 
+            
 
             int indexList = leightOfCollation;
             string word = text.text;
